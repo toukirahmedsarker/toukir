@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.medicino.www.medicino.DoctorRegistration">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/docreg"
+            android:id="@+id/docreg"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/doctorsName"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="5dp"
+            android:hint="নাম"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/age"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="5dp"
+            android:hint="বয়স"
+            android:inputType="number"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/specialist"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="5dp"
+            android:hint="কি স্পেশালিষ্ট?"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/doc_gender"
+            android:hint="জেন্ডার নির্ধারণ করুন"
+            android:gravity="center"
+            android:background="@drawable/edit_text_border"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:gravity="center"
+            android:id="@+id/doctorREgnum"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="5dp"
+            android:hint="বিএমডিসি রেজিঃ নং "/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/docphonno"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="5dp"
+            android:hint="মোবাইল নাম্বার"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:id="@+id/doctor_pass"
+            android:gravity="center"
+            android:hint="@string/password"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="5dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fee"
+            android:inputType="number"
+            android:gravity="center"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="5dp"
+            android:hint="রোগী দেখার ফী নির্ধারণ করুন"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout1"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chember"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:background="@drawable/edit_text_border"
+                android:layout_marginBottom="5dp"
+                android:hint="চেম্বার"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#000000"
+                android:text="সপ্তাহের যে দিন এ রোগী দেখেন"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/weekday1"
+                android:background="@drawable/edit_text_border"></Spinner>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/edit_text_border">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="রোগী দেখার সময়"
+                    android:textColor="#000000"/>
+                <TimePicker
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/timepicker"
+                    android:layout_gravity="center"></TimePicker>
+                </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout2"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chember1"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:background="@drawable/edit_text_border"
+                android:layout_marginBottom="5dp"
+                android:hint="চেম্বার"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#000000"
+                android:text="সপ্তাহের যে দিন এ রোগী দেখেন"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/weekday2"
+                android:background="@drawable/edit_text_border"></Spinner>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/edit_text_border">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:text="রোগী দেখার সময়"/>
+                <TimePicker
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/timepicker1"
+                    android:layout_gravity="center"></TimePicker>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout3"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chember2"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:background="@drawable/edit_text_border"
+                android:layout_marginBottom="5dp"
+                android:hint="চেম্বার"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#000000"
+                android:text="সপ্তাহের যে দিন এ রোগী দেখেন"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/weekday3"
+                android:background="@drawable/edit_text_border"></Spinner>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/edit_text_border">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:text="রোগী দেখার সময়"/>
+                <TimePicker
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/timepicker2"
+                    android:layout_gravity="center"></TimePicker>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout4"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chember3"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:background="@drawable/edit_text_border"
+                android:layout_marginBottom="5dp"
+                android:hint="চেম্বার"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#000000"
+                android:text="সপ্তাহের যে দিন এ রোগী দেখেন"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/weekday4"
+                android:background="@drawable/edit_text_border"></Spinner>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/edit_text_border">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:text="রোগী দেখার সময়"/>
+                <TimePicker
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/timepicker3"
+                    android:layout_gravity="center"></TimePicker>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addChember"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:textColor="#00B0F0"
+            android:text="আরও চেম্বার যুক্ত করতে এখানে ক্লিক করুন..."
+            android:layout_marginBottom="5dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEND"
+            android:textColor="#ffffff"
+            android:id="@+id/docregbutton"
+            android:background="@drawable/button"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

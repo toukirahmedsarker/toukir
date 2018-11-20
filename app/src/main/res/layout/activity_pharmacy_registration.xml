@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.medicino.www.medicino.PharmacyRegistration">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/registration_text_view"
+                android:id="@+id/registrationTextView"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pharmacyNameEditText"
+                android:hint="@string/pharmacy_name"
+                android:layout_marginTop="46dp"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edit_text_border"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:id="@+id/pharmacy_pass"
+                android:hint="@string/password"
+                android:background="@drawable/edit_text_border"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/registrationNoEditText"
+                android:hint="@string/pharmacy_registration_number"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edit_text_border"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ownerNameEditText"
+                android:hint="@string/pharmacy_owner"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edit_text_border"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:hint="@string/pharmacy_address"
+                android:gravity="center"
+                android:ems="50"
+                android:id="@+id/addressEditText"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edit_text_border"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:gravity="center"
+                android:hint="@string/phone_no"
+                android:ems="10"
+                android:id="@+id/phoneNumberEditText"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edit_text_border"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEND"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                android:id="@+id/registerButton"
+                android:layout_marginTop="42dp"
+                android:onClick="Register"
+                android:background="@drawable/button"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

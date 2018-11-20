@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">MEDCINO</string>
+    <string name="pharmacy_registration">ফার্মেসী রেজিস্ট্রেশন করুন</string>
+    <string name="invite_pharmacy">অন্য ফার্মেসীকে আমন্ত্রণ করুন</string>
+    <string name="registration_text_view">ফার্মেসী রেজিস্ট্রেশন</string>
+    <string name="pharmacy_name">ফার্মেসীর নাম</string>
+    <string name="pharmacy_registration_number">ফার্মেসীর রেজিস্ট্রেশন নাম্বার</string>
+    <string name="pharmacy_address">ফার্মেসীর সংক্ষিপ্ত ঠিকানা</string>
+    <string name="pharmacy_owner">ফার্মেসীর মালিকের নাম</string>
+    <string name="phone_no">মোবাইল নাম্বার</string>
+    <string name="patient_phone_no"> রোগীর মোবাইল নাম্বার</string>
+    <string name="doctor_name"> ডাক্তারের নাম</string>
+    <string name="medicine_name"> ওষুধের নাম</string>
+    <string name="company_name"> ওষুধ কোম্পানীর নাম</string>
+    <string name="patient_registration">রোগী নিবন্ধন করুন</string>
+    <string name="add_medicine">একই প্রেসক্রিপশনের আরও ওষুধ যুক্ত করতে এখানে ক্লিক করুন</string>
+    <string name="dose">রোগী ফুল/হাফ ওষুধ নিয়েছে</string>
+    <string name="full_dose">ফুল</string>
+    <string name="half_dose">হাফ</string>
+    <string name="next_dose">কতদিন পর রোগীকে তার অবশিষ্ট ওষুধ কেনার</string>
+    <string name="next_dose2">কথা মনে করিয়ে দিতে চান?</string>
+    <string name="noticication_type">রোগীকে এসএমএস নাকি ভয়েস ম্যাসেজ পাঠাতে সুপারিশ করেন</string>
+    <string name="more_medicine">ওষুধের নাম লিখুন</string>
+    <string name="action_settings">Settings</string>
+    <string name="medireg">ওষুধ নিবন্ধন করুনঃ </string>
+    <string name="docreg">ডাক্তার রেজিস্ট্রেশন:</string>
+    <string name="companyreg">ফার্মাসিউটিক্যাল কোম্পানি রেজিস্ট্রেশন:  </string>
+    <string name="self_patient">রোগী রেজিস্ট্রেশন:</string>
+    <string name="name">নাম</string>
+    <string name="present_Thana">বর্তমান ঠিকানার থানা </string>
+    <string name="stahyi_Thana">স্থায়ী ঠিকানার থানা </string>
+    <string name="problems">কি কি ধরণের স্বাস্থ্য সমস্যায় আপনি বা আপনার পরিবারের কেউ ভুগছেন? </string>
+    <string name="password">পাসওয়ার্ড দিন </string>
+    <string name="age">বয়স</string>
+    <string-array name="problem_names">
+        <item>নাক</item>
+        <item>কান</item>
+        <item>গলা</item>
+        <item>প্রসুতি </item>
+        <item>কিডনি </item>
+    </string-array>
+    <string-array name="sex">
+        <item>Select gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="day_names">
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday </item>
+        <item>Wednesday </item>
+        <item>Thursday </item>
+        <item>Friday </item>
+    </string-array>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="home_text">নিচের যেকোন একটি অপশন সিলেক্ট করুন</string>
+    <string name="user_type_patient">রোগী </string>
+    <string name="user_type_doctor">ডাক্তার </string>
+    <string name="user_type_pharmacy">ফার্মেসী</string>
+    <string name="user_type_company">ফার্মাসিউটিক্যাল কোম্পানি
+</string>
+    <string name="new_patient_registration">নতুন রোগী রেজিস্ট্রেশন করুন</string>
+    <string name="patient_login">অ্যাকাউন্টে লগইন করুন</string>
+    <string name="doctor_registration">নতুন ডাক্তার রেজিস্ট্রেশন করুন</string>
+    <string name="doctor_login">অ্যাকাউন্টে লগইন করুন</string>
+    <string name="new_pharmacy_registration">নতুন ফার্মেসী রেজিস্ট্রেশন করুন</string>
+    <string name="pharmacy_login">অ্যাকাউন্টে লগইন করুন</string>
+    <string name="new_company_registration">নতুন কোম্পানি রেজিস্ট্রেশন করুন</string>
+    <string name="company_login">অ্যাকাউন্টে লগইন করুন</string>
+    <string name="logout">Log out</string>
+    <string name="about">About</string>
+    <string name="about1">MEDCINO develops digital systems which connects Patients, Physicians, and Pharmacies in Bangladesh that improves public health outcomes </string>
+    <string name="about2">We collect data digitally that no one else has in Bangladesh</string>
+    <string name="about3">Our proprietary analytics and visualization engines surface actionable insights for different stakeholders in health sector (Market Intelligence and Big data)</string>
+    <string name="about4">We provide tools that help our clients to connect with patients (/ vice versa) and improve health outcomes.</string>
+    <string name="add_photo">প্রেসক্রিপশনের ছবি তুলুন</string>
+
+</resources>

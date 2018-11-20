@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.medicino.www.medicino.PharmaciticalCompanyRegistration">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/companyreg"
+            android:id="@+id/docreg"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/companyName"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="5dp"
+            android:hint="ফার্মাসিউটিক্যাল কোম্পানির নাম   "/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:id="@+id/company_pass"
+            android:gravity="center"
+            android:hint="@string/password"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/comOwnerName"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="5dp"
+            android:hint="মালিক/এমডি’র নাম"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/companyOwnerContact"
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="5dp"
+            android:hint="মোবাইল নাম্বার"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/headOfMarketingName"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="5dp"
+            android:hint="হেড অব মার্কেটিং’র নাম  "/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:gravity="center"
+            android:id="@+id/headOfMarketingName_contact"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="5dp"
+            android:hint="মোবাইল নাম্বার"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/liazuMember"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="5dp"
+            android:hint="MEDCINO’র সাথে লিয়াজু কর্মকর্তার নাম"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/liazusContact"
+            android:inputType="number"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="20dp"
+            android:hint="মোবাইল নাম্বার"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/companySubmitButton"
+            android:text="SEND"
+            android:textColor="#ffffff"
+            android:background="@drawable/button"
+            android:layout_gravity="center_horizontal"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

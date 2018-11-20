@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.1.0_e280f614c3b04e8c5287be2b723f6eed0358a9ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.3.0_9386f7a205770ba0be4ef3a75ca350ceeefa3e80\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.3.0_61c1b30d15771bbefcade6a501e5944567845f2a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_9eda98925a6c27f1060708869a28464538113ac6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.1.0_c77baaa18274db18cb9b3d3056007afa4b828d1c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.3.0_a2be65916681ca3e637631d584f31c082cecc870\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_7997f5bc9da282eebd2927261d62fc6978f58a6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.3.0_e0bf3910fc53602e3634f4134c9eae69f127b136\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="db5ab0f1f1fe9e4c2203e8154293223fbfbfd81f">
+        <dex dex="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_5cdab31538977712a464bb11ab2de08448a2421a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.3.0_1be0dc70241dcff4406d75abc3332bd9e3dec203\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TOUKIR\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_e4d9416ba10191a00b33565eea66bcfeb9dc89f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="65ba90a460dc514a6c3a6fca3dd1b3ce7acb5601">
+        <dex dex="C:\Users\TOUKIR\Downloads\MEDICINO2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e3c1e8953dd4c484b30588cc56e226263b6a5430\classes.dex" />
+    </item>
+
+</items>
